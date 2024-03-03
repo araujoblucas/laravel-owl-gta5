@@ -24,9 +24,5 @@ return [
         'name' => 'http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome',
         'objective' => 'http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo',
         'pre-requisite' => 'http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito',
-    ]
+    ],
 ];
-
-
-
-

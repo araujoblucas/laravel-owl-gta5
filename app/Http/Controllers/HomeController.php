@@ -18,8 +18,8 @@ class HomeController extends Controller
         foreach ($data as $item) {
             if (isset($item->{'http://www.w3.org/2000/01/rdf-schema#subClassOf'})) {
                 foreach ($item->{'http://www.w3.org/2000/01/rdf-schema#subClassOf'} as $type) {
-                    if ($type->{"@id"} === self::SUBCLASS) {
-                        $types[] = $item->{"@id"};
+                    if ($type->{'@id'} === self::SUBCLASS) {
+                        $types[] = $item->{'@id'};
                         break;
                     }
                 }

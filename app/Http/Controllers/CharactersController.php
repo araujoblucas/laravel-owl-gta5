@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Traits\Getters;
-use Illuminate\Http\Request;
 
 class CharactersController extends Controller
 {
     use Getters;
 
     const TYPE = 'http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#personagem';
+
     public function __invoke()
     {
         $data = $this->getDataFromFile();
@@ -17,7 +17,6 @@ class CharactersController extends Controller
 
         $array = [];
         foreach ($data as $item) {
-
             if (isset($item->{'@type'})) {
                 foreach ($item->{'@type'} as $type) {
                     if ($type === self::TYPE) {

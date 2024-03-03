@@ -21,8 +21,8 @@ class QuestController extends Controller
         foreach ($data as $item) {
             if (isset($item->{'http://www.w3.org/2000/01/rdf-schema#subClassOf'})) {
                 foreach ($item->{'http://www.w3.org/2000/01/rdf-schema#subClassOf'} as $type) {
-                    if ($type->{"@id"} === self::SUBCLASS) {
-                        $types[] = $item->{"@id"};
+                    if ($type->{'@id'} === self::SUBCLASS) {
+                        $types[] = $item->{'@id'};
                         break;
                     }
                 }
@@ -63,8 +63,8 @@ class QuestController extends Controller
         foreach ($data as $item) {
             if (isset($item->{'http://www.w3.org/2000/01/rdf-schema#range'})) {
                 foreach ($item->{'http://www.w3.org/2000/01/rdf-schema#range'} as $type) {
-                    if (Str::contains($type->{"@id"}, $mission['link'])) {
-                        $mission['quest_owner'] = $this->getQuestOwner($item->{"http://www.w3.org/2000/01/rdf-schema#domain"}[0]);
+                    if (Str::contains($type->{'@id'}, $mission['link'])) {
+                        $mission['quest_owner'] = $this->getQuestOwner($item->{'http://www.w3.org/2000/01/rdf-schema#domain'}[0]);
                         break;
                     }
                 }
@@ -72,7 +72,6 @@ class QuestController extends Controller
         }
 
         $mission['quest_owner'] = $mission['quest_owner'] ?? $this->getQuestOwner('');
-
 
         return view('quest', compact('mission'));
     }

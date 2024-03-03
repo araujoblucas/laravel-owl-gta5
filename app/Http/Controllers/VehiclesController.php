@@ -9,12 +9,12 @@ class VehiclesController extends Controller
     use Getters;
 
     const TYPE = 'http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo';
+
     public function __invoke()
     {
         $data = $this->getDataFromFile();
         $array = [];
         foreach ($data as $item) {
-
             if (isset($item->{'@type'})) {
                 foreach ($item->{'@type'} as $type) {
                     if ($type === self::TYPE) {

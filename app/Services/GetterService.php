@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Log;
 class GetterService
 {
     protected $graph;
+
     protected $resource;
 
     public function __construct(Resource $resource)
@@ -28,11 +29,12 @@ class GetterService
             if (empty($value)) {
                 return '';
             }
+
             return $value->getValue();
         } catch (Exception $exception) {
-            Log::critical("Error trying to get literal at " . self::class, ['exception' => $exception]);
+            Log::critical('Error trying to get literal at '.self::class, ['exception' => $exception]);
+
             return '';
         }
     }
-
 }

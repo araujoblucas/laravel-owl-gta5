@@ -17,7 +17,6 @@ class CharacterController extends Controller
 
         $array = [];
         foreach ($data as $item) {
-
             if (isset($item->{'@type'})) {
                 foreach ($item->{'@type'} as $type) {
                     if ($type === self::TYPE) {
@@ -27,7 +26,6 @@ class CharacterController extends Controller
                 }
             }
         }
-
 
         foreach ($array as $item) {
             if ($this->getLink($item) != $character) {
@@ -48,9 +46,8 @@ class CharacterController extends Controller
         foreach ($data as $item) {
             if (isset($item->{'http://www.w3.org/2000/01/rdf-schema#domain'})) {
                 foreach ($item->{'http://www.w3.org/2000/01/rdf-schema#domain'} as $type) {
-
-                    if (Str::contains($type->{"@id"}, $character['link'])) {
-                        $character['quests'][] = $this->getMissions($item->{"http://www.w3.org/2000/01/rdf-schema#range"}[0]);
+                    if (Str::contains($type->{'@id'}, $character['link'])) {
+                        $character['quests'][] = $this->getMissions($item->{'http://www.w3.org/2000/01/rdf-schema#range'}[0]);
                         break;
                     }
                 }
