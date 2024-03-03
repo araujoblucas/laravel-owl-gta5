@@ -1,0 +1,458 @@
+[ {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#Submarino",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#descrição" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Após comprar a Sonar Collections Dock, um Submarino aparece na doca\nComplete a missão /\n\"The Merryweather Heist\" e um Submarino vai aparecer em Sandy Shores Airfield, perto da torre de água. É preciso usar um Cargobob para pegá-lo, e ele só aparece para Trevor"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtasubmarine.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "doca"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "submarino"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Completar a missão \"The Merryweather Heist\""
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "comprar a Sonar Collections Dock"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#ajude_os_canibais_a_encontrar_alimento",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#missão" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#descrição" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Depois de terminar a missão Nervous Ron com Trevor, você vai receber uma mensagem do seu assistente oferecendo essa missão. A partir daqui, você vai encontrar pontos aleatórios no mapa que indicam cidadãos precisando de ajuda. Você pode, então, convencê-los a entrar no seu carro e levá-los até ao Culto Altruísta, para eles fazerem parte do menu do grupo.\n\nApós quatro oferendas, o próprio Trevor vai ser raptado e levado para o campo. Aí, você terá de fugir, matando todos os membros canibais, e procurar quatro malas cada uma delas contendo $25,000."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtacanibal3.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Culto Altruísta"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Ajudar os canibais a se alimentarem"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "terminar a missão Nervous Ron com Trevor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#cace_o_feroz_pé_grande",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#missão" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#descrição" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Franklin consegue pegar a missão The Last One após completar o game a 100%. Você terá de se dirigir ao ponto de interrogação em Raton Canyon para encontrar um caçador de Pé Grande na floresta. Aí, ele vai recrutá-lo para caçar o monstro e você deverá perseguir o Pé Grande a pé para ganhar um troféu.\n\nUm dos aspectos interessantes desta missão é o fato do Pé Grande ser um mito incorporado na franquia desde o game GTA: San Andreas, onde existiam rumores de um monstro similar vivendo em algum lugar no mapa."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtapegrande.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Raton Canyon"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Cace o feroz pé-grande"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Um caçador vai recrutá-lo para caçar o monstro e você deverá perseguir o Pé Grande a pé para ganhar um troféu."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Franklin consegue pegar a missão The Last One após completar o game a 100%"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#classe_social",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#combata_a_ameça_extraterrestre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#missão" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#descrição" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Para começar essa que deve ser a mais divertida das missões em GTA V, você precisa se dirigir com Michael até Park Square. Aí, o ativista Barry vai convencê-lo a experimentar a sua maconha. Claro que ao fazer isso, Michael entra em um estado delirante, com estranhas criaturas alienígenas o atacando aleatoriamente.\n\nFelizmente, você vai estar armado e com acesso a munições ilimitadas e apenas tem de sobreviver tempo suficiente para ganhar a sua consciência de volta."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtaextraterrestres.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Park Square"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Combata a ameaça extraterrestre"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Fumar maconha, tem de sobreviver tempo suficiente para ganhar a sua consciência de volta."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Ir com michael"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#dave_norton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#personagem" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#classe_social" : [ {
+    "@value" : "Alta"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#emprego" : [ {
+    "@value" : "Agente do FBI"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#habilidade_especial" : [ {
+    "@value" : "???"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#idade" : [ {
+    "@value" : "40 a 50 anos"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@value" : "https://gtavroleplaying.weebly.com/uploads/1/3/1/8/13180004/1387902573.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#mora" : [ {
+    "@value" : "Los santos"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@value" : "Dave norton"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#descrição",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#emprego",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#franklin_clinton",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#personagem" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#classe_social" : [ {
+    "@value" : "Média baixa"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#emprego" : [ {
+    "@value" : "Empreendendor na Premium Deluxe Motorsport"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#habilidade_especial" : [ {
+    "@value" : "Driving Concentration ( Direção Aprimorada )"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#idade" : [ {
+    "@value" : "25 anos"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@value" : "https://gtavroleplaying.weebly.com/uploads/1/3/1/8/13180004/4093202.png?299"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#mora" : [ {
+    "@value" : "Los Santos"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@value" : "Franklin Clinto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#habilidade_especial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#idade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#liberte_a_américa_dos_imigrantes_ilegais",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#missão" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#descrição" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Em GTA V, você pode se juntar com Trevor ao autoproclamado grupo Patrulha Civil da Fronteira, em Blaine County. Para isso, basta se encontrar com Josef e Joe, no Deserto Grand Senora, e aceitar se juntar à causa para que a América fique livre de imigrantes ilegais.\n\nO jogador terá, então, de seguir com os seus novos companheiros em busca de imigrantes, inspecionando propriedades e escolhendo, ou não, usar a força para atingir os seus objetivos."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtaimigrantes2.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Deserto Grand Senora"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Liberte a América dos imigrantes ilegais"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "O jogador terá, então, de seguir com os seus novos companheiros em busca de imigrantes, inspecionando propriedades e escolhendo, ou não, usar a força para atingir os seus objetivos."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Ir com o Trevor"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#michael_de_santa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#personagem" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#classe_social" : [ {
+    "@value" : "Alta"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#emprego" : [ {
+    "@value" : "Aposentado"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#habilidade_especial" : [ {
+    "@value" : "Marksman Ability ( Mira Aprimorada )"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#idade" : [ {
+    "@value" : "45 anos"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@value" : "https://gtavroleplaying.weebly.com/uploads/1/3/1/8/13180004/6010818.png?291"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#mora" : [ {
+    "@value" : "Los Santos"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@value" : "Michael de santa"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#missão",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#mora",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nagazaki_blazer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtanagazakiblazer.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Às vezes ele aparece sendo dirigido por Blaine County/\n\nDois podem ser encontrados lado a lado na linha da praia em Paleto Bay/\n\nNo campo dos Altruístas, em Monte Chiliad, no lado da trilha, de frente para a ponte/\n\nAo sudeste do aeroporto de Los Santos, lado a lado com um Dozer e um Trashmaster/\n\nEncontre um em uma plataforma antiga de pesca, em Lago Zancudo"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Nagazaki Blazer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pegaMissao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#personagem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#missão"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pegaVeiculo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#personagem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#personagem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#space_docker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#descrição" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Franklin deve coletar todas as 50 Spaceship Parts. Depois vá para Omega, para completar a missão \"A Fronteira Final\". O carro está disponível na garagem de Omega, e Franklin pode levar para Michael ou para Trevor, que podem guardá-lo em suas garagens."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtaspacedocker.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Omega"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Space Docker"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "completar a missão \"A Fronteira Final\""
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Franklin deve coletar todas as 50 Spaceship Parts.  Depois vá para Omega, para completar a missão \"A Fronteira Final\""
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#torne-se_membro_de_uma_seita",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#missão" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#descrição" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Para conseguir pegar a missão The Truth, você precisa ir ao site Épsilon com Michael e completar um pequeno teste. Aí, você tem apenas de se dirigir ao ponto de interrogação que aparecer no seu mapa para começar a primeira de oito estranhas missões, que incluem correr pelo deserto e doar cerca de $75,000 ao Programa.\n\nPor fim, Michael vai ficar iluminado o suficiente para ser apresentado ao líder da seita, chegando à fase final da missão."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtaculto.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "site Épsilon com Michael"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Torne-se um membro de uma seita"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Completar um pequeno teste ao chegar ao local da missão, para assim poder se dirigir ao ponto de interrogação que ira aparecer no mapa para começar a primeira das oito missões, que incluem correr pelo deserto e doar $75,000 ao programa."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#trator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#descrição" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Na missão \"Buscando a verdade\", Michael entrega o carro no ponto de entrega. Um membro da Epsilon lhe dá o Trator\nPode achá-lo no Farol de El Gordo, estacionado perto da casa da Ursula\nRaro, mas você pode encontrá-lo estacionado em um depósito nas áreas de fazenda, perto dos caminhos que levam aos trilhos"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtatrator.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Farol de El Gordo"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Trator"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Michael deverá entregar o carro no ponto de entrega"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Terminar a missão Buscando a verdade"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#trevor_phillips",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#personagem" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#classe_social" : [ {
+    "@value" : "Média"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#emprego" : [ {
+    "@value" : "Dono da TP Inc. ( Comerciante de Armas e Drogas )"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#habilidade_especial" : [ {
+    "@value" : "Rampage ( Dano e Resistência Aprimorados )"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#idade" : [ {
+    "@value" : "40 a 50 anos"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@value" : "https://gtavroleplaying.weebly.com/uploads/1/3/1/8/13180004/8782405.png?297"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#mora" : [ {
+    "@value" : "Sandy Shores"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@value" : "Trevor philips"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#western_company_cargobob",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/western-company-cargobob.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Western Company Cargobob"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Na missão \"The Merryweather Heist\" (se o segundo método for escolhido), o jogador deve fisgar um Submersível com uma variante TPE exclusiva do Cargobob."
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Terminar a missão The Merryweather Heist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#z-type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo" ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#imagem" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "https://cdn.ligadosgames.com/imagens/gtaztype.jpg"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#local" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Legendary Motorsport"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#nome" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "z-type"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#objetivo" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Na missão \"Vigilância Aérea\", ao estacionar na vaga do 3671 Whispymound Drive. Saia, entre de novo e saia mais uma vez, abandonando o veículo. Se a missão não for reiniciada, o Z-Type estará LSPD Auto Impound, por apenas $250"
+  } ],
+  "http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#pré-requisito" : [ {
+    "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "@value" : "Terminar a missão Vigilância Aérea"
+  } ]
+} ]
