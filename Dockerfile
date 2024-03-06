@@ -1,13 +1,5 @@
 FROM php:8.1-fpm
 
-
-RUN apt-get update && \
- apt-get install -y \
-    nodejs npm
-
-RUN curl -fsSL https://deb.nodesource.com/setup_current.x | bash - && \
- apt-get install -y nodejs
-
 # Arguments defined in docker-compose.yml
 ARG user
 ARG uid
@@ -41,6 +33,10 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN useradd -G www-data,root -u 1000 -d /home/dev dev
 RUN mkdir -p /home/dev/.composer && \
     chown -R dev:dev /home/dev
+
+# Set correct permissions for Laravel
+RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache && \
+    chmod -R 775 /var/www/storage /var/www/bootstrap/cache
 
 # Set working directory
 WORKDIR /var/www

@@ -1,61 +1,22 @@
 version: "3.7"
 services:
-  personal-finance:
+  larave-owl-gta5:
     build: .
-    container_name: personal-finance
+    container_name: laravel-owl-gta5
     restart: unless-stopped
     working_dir: /var/www/
     volumes:
       - ./:/var/www
+    command: >
+        sh -c "chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache &&
+               chmod -R 775 /var/www/storage /var/www/bootstrap/cache &&
+               php-fpm"
     networks:
-      - personal-finance-network
-
-  rust-test:
-    build: .
-    container_name: rust-test
-    restart: unless-stopped
-    working_dir: /var/www/
-    volumes:
-      - ./rust-test:/var/www
-    ports:
-      - "3004:3004"
-    networks:
-      - personal-finance-network
-
-  web-pf-vue:
-      hostname: web-pf-vue
-      container_name: web-pf-vue
-      image: web-pf-vue
-      build:
-          context: web-pf-vue
-          dockerfile: Dockerfile
-      ports:
-          - "3003:8080"
-      working_dir: /app
-      volumes:
-          - type: bind
-            source: ./web-pf-vue
-            target: /app
-
-  db:
-    image: mysql:latest
-    container_name: personal-finance-db
-    restart: unless-stopped
-    environment:
-      MYSQL_DATABASE: ${DB_DATABASE}
-      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
-      MYSQL_PASSWORD: ${DB_PASSWORD}
-      MYSQL_USER: ${DB_USERNAME}
-    ports:
-        - "3306:3306"
-    volumes:
-      - mysql-data:/var/lib/mysql
-    networks:
-      - personal-finance-network
+      - laravel-owl-gta5-network
 
   nginx:
     image: nginx:alpine
-    container_name: personal-finance-nginx
+    container_name: laravel-owl-gta5-nginx
     restart: unless-stopped
     ports:
        - "80:80"
@@ -63,11 +24,8 @@ services:
       - ./:/var/www
       - ./docker-compose/nginx:/etc/nginx/conf.d/
     networks:
-      - personal-finance-network
+      - laravel-owl-gta5-network
 
 networks:
-  personal-finance-network:
+  laravel-owl-gta5-network:
     driver: bridge
-
-volumes:
-  mysql-data:
