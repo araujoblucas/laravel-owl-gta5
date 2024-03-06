@@ -43,14 +43,12 @@
 
     .content {
     display: flex;
-    align-items: center;
     gap: 20px;
     margin-right: 5px;
     }
 
     .image img {
-    width: 150px; /* Ou qualquer outro tamanho desejado */
-    height: 200px;
+    min-height: 250px;
     border-radius:30px 0 0 30px;
     }
 
@@ -64,9 +62,13 @@
     text-transform: Capitalize;
     }
 
+    p {
+    font-size: 28px;
+    }
+
     p a {
     text-align: center; /* Centraliza o conteúdo */
-    font-size: 16px; /* Torna o texto maior */
+    font-size: 28px;
     font-weight: bold; /* Aplica negrito */
     text-decoration: none; /* Remove o sublinhado */
     color: #444;

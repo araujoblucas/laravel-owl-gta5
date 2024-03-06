@@ -8,7 +8,7 @@ class VehiclesController extends Controller
 {
     use Getters;
 
-    const TYPE = 'http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#veiculo';
+    const TYPE = 'http://www.semanticweb.org/ontologies/gta-ontology#veiculo';
 
     public function __invoke()
     {

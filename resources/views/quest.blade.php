@@ -73,11 +73,12 @@
     text-align: center; /* Centraliza o conteúdo */
     margin: 15px 0px;
     text-transform: Capitalize;
+    font-size: 32px;
     }
 
     p {
     padding: 4px 15px;
     text-align: justify;
-
+    font-size: 24px;
     }
 @endsection

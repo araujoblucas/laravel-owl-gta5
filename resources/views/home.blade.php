@@ -14,20 +14,22 @@
 @section('style')
     .post-title {
         margin: 24px;
-        font-size: 24px;
+        font-size: 36px;
         text-align: center;
         text-transform: capitalize;
     }
     .post-description {
         margin-top: 10px;
+        font-size: 22px;
     }
     .post-link {
         margin-top: 10px;
         margin-bottom: 20px;
+
     }
     .post-link a {
         text-align: center; /* Centraliza o conteúdo */
-        font-size: 20px; /* Torna o texto maior */
+        font-size: 28px; /* Torna o texto maior */
         font-weight: bold; /* Aplica negrito */
         text-decoration: none; /* Remove o sublinhado */
         color: black; /* Define a cor do texto para preto (ou qualquer outra cor desejada) */

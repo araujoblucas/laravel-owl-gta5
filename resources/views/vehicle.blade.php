@@ -39,6 +39,7 @@
     max-width:490px;
     border: solid;
     padding-bottom: 20px;
+    font-size: 24px;
     border-radius: 30px;
     }
 

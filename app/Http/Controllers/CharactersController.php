@@ -8,20 +8,32 @@ class CharactersController extends Controller
 {
     use Getters;
 
-    const TYPE = 'http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#personagem';
+    const SUBCLASS = 'http://www.semanticweb.org/ontologies/gta-ontology#personagem';
 
     public function __invoke()
     {
         $data = $this->getDataFromFile();
-//        dd($data);
 
-        $array = [];
+        $types = [];
         foreach ($data as $item) {
-            if (isset($item->{'@type'})) {
-                foreach ($item->{'@type'} as $type) {
-                    if ($type === self::TYPE) {
-                        $array[] = $item;
+            if (isset($item->{'http://www.w3.org/2000/01/rdf-schema#subClassOf'})) {
+                foreach ($item->{'http://www.w3.org/2000/01/rdf-schema#subClassOf'} as $type) {
+                    if ($type->{'@id'} === self::SUBCLASS) {
+                        $types[] = $item->{'@id'};
                         break;
+                    }
+                }
+            }
+        }
+
+        foreach ($types as $type) {
+            foreach ($data as $item) {
+                if (isset($item->{'@type'})) {
+                    foreach ($item->{'@type'} as $itemType) {
+                        if ($itemType === $type) {
+                            $array[] = $item;
+                            break;
+                        }
                     }
                 }
             }

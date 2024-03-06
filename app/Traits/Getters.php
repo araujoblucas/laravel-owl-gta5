@@ -19,7 +19,7 @@ trait Getters
     public function getTitle($item)
     {
         $text = $item->{'@id'};
-        $text = str_replace('http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#', '', $text);
+        $text = str_replace('http://www.semanticweb.org/ontologies/gta-ontology#', '', $text);
 
         return str_replace('_', ' ', $text);
     }
@@ -28,7 +28,7 @@ trait Getters
     {
         $text = $item->{'@id'};
 
-        return mb_strtolower(str_replace('http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#', '', $text));
+        return mb_strtolower(str_replace('http://www.semanticweb.org/ontologies/gta-ontology#', '', $text));
     }
 
     public function getQuestOwner($item): array
@@ -40,7 +40,7 @@ trait Getters
             ];
         }
         $text = $item->{'@id'};
-        $owner = mb_strtolower(str_replace('http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#', '', $text));
+        $owner = mb_strtolower(str_replace('http://www.semanticweb.org/ontologies/gta-ontology#', '', $text));
         $characters = config('links.characters');
 
         foreach ($characters as $characterName => $characterLink) {
@@ -67,7 +67,7 @@ trait Getters
             ];
         }
         $text = $item->{'@id'};
-        $owner = mb_strtolower(str_replace('http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#', '', $text));
+        $owner = mb_strtolower(str_replace('http://www.semanticweb.org/ontologies/gta-ontology#', '', $text));
         $characters = config('links.missions');
 
         foreach ($characters as $characterName => $characterLink) {

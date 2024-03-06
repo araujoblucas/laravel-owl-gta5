@@ -17,7 +17,7 @@
 @section('style')
     p {
     font-family: 'Arial', sans-serif; /* Define a fonte */
-    font-size: 16px; /* Tamanho da fonte */
+    font-size: 26px; /* Tamanho da fonte */
     line-height: 1.5; /* Espaçamento entre linhas */
     color: #333; /* Cor do texto */
     margin-top: 15px; /* Margem superior */

@@ -18,12 +18,13 @@
 @endsection
 
 @section('style')
+
     .container {
     max-width:100%;
     width:100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 20px;
     border: solid;
     padding-right: 20px;
@@ -50,7 +51,9 @@
     }
 
     .content {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
     }
@@ -58,11 +61,13 @@
     .image img {
     width: 100%;
     height: 300px;
+    margin-left: 0px;
     border-radius: 30px 0 0 30px;
     overflow:hidden;
     }
 
     .text {
+    width: 50%;
     max-width: 60%;
     }
 

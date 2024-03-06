@@ -67,6 +67,7 @@
     }
 
     .navbar {
+        font-size: 26px;
         display: flex;
         justify-content: center; /* Centraliza o conteúdo horizontalmente */
         align-items: center; /* Centraliza o conteúdo verticalmente */

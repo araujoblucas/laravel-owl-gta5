@@ -10,7 +10,7 @@ class QuestController extends Controller
 {
     use Getters;
 
-    const SUBCLASS = 'http://www.semanticweb.org/wilianssilva/ontologies/2024/1/untitled-ontology-7#missão';
+    const SUBCLASS = 'http://www.semanticweb.org/ontologies/gta-ontology#missão';
 
     public function __invoke(string $mission = '')
     {
