@@ -1,0 +1,73 @@
+version: "3.7"
+services:
+  personal-finance:
+    build: .
+    container_name: personal-finance
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+    networks:
+      - personal-finance-network
+
+  rust-test:
+    build: .
+    container_name: rust-test
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./rust-test:/var/www
+    ports:
+      - "3004:3004"
+    networks:
+      - personal-finance-network
+
+  web-pf-vue:
+      hostname: web-pf-vue
+      container_name: web-pf-vue
+      image: web-pf-vue
+      build:
+          context: web-pf-vue
+          dockerfile: Dockerfile
+      ports:
+          - "3003:8080"
+      working_dir: /app
+      volumes:
+          - type: bind
+            source: ./web-pf-vue
+            target: /app
+
+  db:
+    image: mysql:latest
+    container_name: personal-finance-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+    ports:
+        - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - personal-finance-network
+
+  nginx:
+    image: nginx:alpine
+    container_name: personal-finance-nginx
+    restart: unless-stopped
+    ports:
+       - "80:80"
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - personal-finance-network
+
+networks:
+  personal-finance-network:
+    driver: bridge
+
+volumes:
+  mysql-data:
