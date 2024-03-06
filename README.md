@@ -1,10 +1,9 @@
 # Ontologia de GTA
 
-- [Executar o projeto](#executar-o-projeto)
 - [Requisitos](#requisitos)
 - [Instalar Docker](#instalar-docker)
 - [Instalar Docker Compose](#instalar-docker-compose)
-
+- [Executar o projeto](#executar-o-projeto)
 
 
 # Requisitos
